@@ -1,0 +1,8 @@
+{
+  "name": "Hello Module",
+  "route": "/hello-module",
+  "component": "./frontend/HelloModule.vue",
+  "description": "A simple demonstration module for system testing",
+  "author": "bestuteam",
+  "version": "1.0.0"
+}
