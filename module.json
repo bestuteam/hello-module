@@ -1,8 +1,18 @@
 {
+  "id": "hello-module",
   "name": "Hello Module",
-  "route": "/hello-module",
-  "component": "./frontend/HelloModule.vue",
-  "description": "A simple demonstration module for system testing",
+  "description": "👋 A simple demonstration module for testing the module system.",
   "author": "bestuteam",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "route": "/hello-module",
+  "component": "frontend/HelloModule.vue",
+  "menu": {
+    "title": "👋 Hello Module",
+    "icon": "Smile"
+  },
+  "meta": {
+    "category": "demo",
+    "visible": true,
+    "created_at": "2025-10-17"
+  }
 }
