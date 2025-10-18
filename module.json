@@ -5,10 +5,11 @@
   "author": "bestuteam",
   "version": "1.0.0",
   "route": "/hello-module",
-  "component": "frontend/HelloModule.vue",
+  "component": "./frontend/HelloModule.vue",
   "menu": {
-    "title": "👋 Hello Module",
-    "icon": "Smile"
+    "label": "👋 Hello Module",
+    "icon": "icofont-rocket",
+    "parent": "modules"
   },
   "meta": {
     "category": "demo",
